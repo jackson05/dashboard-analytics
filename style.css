@@ -112,6 +112,8 @@ header{
     left: 280px;
     width: calc(100% - 280px);
     top: 0;
+    z-index: 20;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0,0.1);
 }
 
 .menu-toggle label{
