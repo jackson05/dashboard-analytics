@@ -106,8 +106,12 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #efefef;
+    background: #fff;;
     padding: 1rem 1.5rem;
+    position: fixed;
+    left: 280px;
+    width: calc(100% - 280px);
+    top: 0;
 }
 
 .menu-toggle label{
@@ -141,6 +145,7 @@ main{
     padding: 1.5rem;
     background: #f1f5f9;
     min-height: calc(100vh - 70px);
+    margin-top: 70px;
 }
 
 .page-header{
@@ -315,5 +320,13 @@ span.indicator.even{
     color: #444;
     font-weight: 500;
 
+}
+
+table button{
+    background: #8da2fb;
+    color: midnightblue;
+    border: 1px solid #8da2fb;
+    padding: .5rem;
+    border-radius: 3px;
 }
 
