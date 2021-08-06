@@ -266,3 +266,14 @@ main{
 
 }
 
+.analytics-card button{
+    display: block;
+    padding: .6rem 1rem;
+    width: 100%;
+    height: 45px;
+    background: #5850ec;
+    color: #fff;
+    border: 1px solid #5850ec;
+    border-radius: 3px;
+}
+
