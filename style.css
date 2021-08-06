@@ -290,6 +290,20 @@ main{
     margin-top: 1rem;
 }
 
+span.indicator{
+    background: #c9f7f5;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+span.indicator.even{
+    background: #fff4de;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
 .jobs table td div{
     background: #fff;
     margin-bottom: 1rem;
