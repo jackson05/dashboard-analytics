@@ -13,6 +13,7 @@
     padding: 0;
 }
 
+
 .sidebar{
     width: 280px;
     position: fixed;
@@ -79,6 +80,8 @@
 
 .sidebar-menu li{
     margin-bottom: .8rem;
+    display: flex;
+    align-items: center;
     
 }
 
@@ -118,6 +121,26 @@ header{
 
 }
 
+.header-icons span{
+    display: inline-block;
+    margin-left: .7rem;
+    font-size: 1.4rem;
+}
+
+
 .menu-toggle label:hover{
     background: #efefef;
 }
+
+
+.main-content{
+    margin-left: 280px;
+
+}
+
+main{
+    padding: 1.5rem;
+    background: #f1f5f9;
+    min-height: calc(100vh - 70px);
+}
+
