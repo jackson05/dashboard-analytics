@@ -13,6 +13,23 @@
     padding: 0;
 }
 
+#sidebar-toggle{
+   display: none; 
+}
+
+#sidebar-toggle:checked ~ .sidebar{
+    left: -100%;
+}
+
+#sidebar-toggle:checked ~ header{
+    left: -100%;
+    width: calc(100% - 0) !important;
+}
+
+#sidebar-toggle:checked ~ .main-content{
+    margin-left: 0;
+}
+
 
 .sidebar{
     width: 280px;
@@ -23,6 +40,8 @@
     padding: 1rem 1.5rem;
     background: var(--color-main);
     color: #fff;
+    z-index: 20;
+    transition: left 300ms;
 }
 
 .sidebar-brand{
@@ -99,6 +118,7 @@
 
 .main-content{
     margin-left: 280px;
+    transition: left 300ms;
 } 
 
 header{
@@ -114,6 +134,7 @@ header{
     top: 0;
     z-index: 20;
     box-shadow: 4px 4px 10px rgba(0, 0, 0,0.1);
+    transition: left 300ms;
 }
 
 .menu-toggle label{
@@ -140,6 +161,7 @@ header{
 
 .main-content{
     margin-left: 280px;
+    transition: margin-left 300ms;
 
 }
 
