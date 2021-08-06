@@ -151,8 +151,17 @@ main{
 
 .header-actions button{
     outline: none;
-    background: #fff;
-    border: none;
-    padding: 1rem;
+    color: #fff;
+    background: #5850ec;
+    border:none;
+    padding: .6rem 1rem;
+    margin-left: 1rem;
+    border-radius: 3px;
+    font-weight: 600;
 
+}
+
+.header-actions button span{
+    font-size:1.2rem;
+    margin-right: .6rem;
 }
