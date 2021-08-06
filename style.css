@@ -185,3 +185,10 @@ main{
     display: grid;
     grid-template-columns: 70% auto;
 }
+
+.card-head span{
+    display: block;
+    text-transform: uppercase;
+    color: #555;
+    font-size: .9rem;
+}
