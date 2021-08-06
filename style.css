@@ -287,13 +287,19 @@ main{
 
 .jobs table {
     border-collapse: collapse;
+    margin-top: 1rem;
 }
 
-.jobs table tr{
+.jobs table td div{
     background: #fff;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    font-size: .85rem;
+    color: #444;
+    font-weight: 500;
+
 }
 
-.jobs table td{
-    margin-bottom: 1rem;
-}
