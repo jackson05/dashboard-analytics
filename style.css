@@ -165,3 +165,16 @@ main{
     font-size:1.2rem;
     margin-right: .6rem;
 }
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    grid-gap: 3px; 
+    margin-top: 2rem;
+}
+
+.card-single{
+    background: #fff;
+    padding: 1rem;
+    box-shadow: 3px 2px 6px;
+}
