@@ -222,7 +222,7 @@ main{
 }
 
 .jobs-grid{
-    margin-top: 3rem;
+    margin-top: 4rem;
     display: grid;
     grid-template-columns: auto 66%;
     grid-gap: 3rem;
@@ -237,10 +237,32 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
-analytics-head span{
+.analytics-head span{
     font-size: 1.5rem;
+}
+
+.analytics-chart small{
+    font-weight: 600;
+    color: #555;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.chart-circle{
+    height: 150px;
+    width: 150px;
+    border-left: 12px solid transparent;
+    border-right: 12px solid #5850ec;
+    border-top: 12px solid #5850ec;
+    border-bottom: 12px solid #5850ec;
+    display: grid;
+    place-items: center;
+    margin: auto;
+    border-radius: 50%;
+    margin-bottom: 3rem;
+
 }
 
