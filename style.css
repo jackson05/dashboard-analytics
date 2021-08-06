@@ -207,3 +207,16 @@ main{
     font-size: 2.2rem;
     color: #333;
 }
+
+.card-chart.succes span{
+    color: seagreen;
+}
+
+.card-chart.danger span{
+    color: tomato;
+}
+
+card-chart.yellow span{
+    color: orangered;
+
+}
