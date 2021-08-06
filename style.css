@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&diplay=swap");
+
+:root{
+    --color-main:#1a202e;
+}
+
+*{
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    width: 280px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding: 1rem 1.5rem;
+    background: var(--color-main);
+    color: #fff;
+}
+
+.sidebar-brand{
+    height: 100px;
+    align-items: center;
+}
+
+.brand-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-icons span {
+    font-size: 1.5rem;
+    margin-left: .5rem;
+}
+
+.sidebar-user {
+   margin:  1rem 0rem 1rem 0rem;
+}
+
+.sidebar-user img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border-left: solid 2px transparent;
+    border-right: solid 2px #efefef;
+    border-bottom: solid 2px #efefef;
+    border-top: solid 2px #efefef;
+}
+
+.sidebar-user h3{
+    font-size: 1rem;
+}
+
+.sidebar-user span{
+    font-size: .8rem;
+}
+
+.sidebar-menu{
+    margin-top: 3rem;
+}
+
+.menu-head{
+    text-transform: uppercase;
+    color: #8da2fb;
+    font-size: .75rem;
+    font-weight: 500;
+    margin-bottom: .8rem;
+}
+
+.sidebar-menu ul{
+    margin-bottom: 1.5rem;
+}
+
+.sidebar-menu li{
+    margin-bottom: .8rem;
+    
+}
+
+.sidebar-menu li a{
+    color: #efefef;
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-menu li a span{
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-right: .8rem;
+}
+
+.main-content{
+    margin-left: 280px;
+} 
+
+header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #efefef;
+    padding: 1rem 1.5rem;
+}
+
+.menu-toggle label{
+    height: 60px;
+    width: 60px;
+    display: grid;
+    place-items: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+
+}
+
+.menu-toggle label:hover{
+    background: #efefef;
+}
