@@ -277,3 +277,23 @@ main{
     border-radius: 3px;
 }
 
+.jobs h2 small{
+    color: #5850ec;
+    font-weight: 600;
+    display: inline-block;
+    margin-left: 1rem;
+    font-size: .8rem;
+}
+
+.jobs table {
+    border-collapse: collapse;
+}
+
+.jobs table tr{
+    background: #fff;
+    margin-bottom: 2rem;
+}
+
+.jobs table td{
+    margin-bottom: 1rem;
+}
