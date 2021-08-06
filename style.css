@@ -144,3 +144,15 @@ main{
     min-height: calc(100vh - 70px);
 }
 
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-actions button{
+    outline: none;
+    background: #fff;
+    border: none;
+    padding: 1rem;
+
+}
