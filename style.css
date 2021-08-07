@@ -398,5 +398,18 @@ table button{
     .jobs-grid{
         grid-template-columns: 100%;
      }
+
+     .page-header{
+         display: block;
+     }
+
+     .header-actions{
+         margin-top: 1rem;
+         text-align: right;
+     }
+
+     .header-actions button:first-child{
+         margin-left: 0rem;
+     }
 }
 
