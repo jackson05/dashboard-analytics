@@ -13,6 +13,10 @@
     padding: 0;
 }
 
+body{
+    overflow: auto;
+}
+
 #sidebar-toggle{
    display: none; 
 }
@@ -307,6 +311,7 @@ main{
     border-radius: 3px;
 }
 
+
 .jobs h2 small{
     color: #5850ec;
     font-weight: 600;
@@ -355,9 +360,15 @@ table button{
     padding: .5rem;
     border-radius: 3px;
 }
+
+.table-responsive{
+    overflow: auto;
+}
+
 @media only screen and (max-width:1124){
     .sidebar{
         left: -100%;
+        z-index: 30;
     }
 
     .main-content{
@@ -375,7 +386,17 @@ table button{
     }
 
     .cards{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
+}
+
+@media only screen and (max-width:768){
+    .cards{
+       grid-template-columns: 100%;
+    }
+
+    .jobs-grid{
+        grid-template-columns: 100%;
+     }
 }
 
