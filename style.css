@@ -21,9 +21,10 @@
     left: -100%;
 }
 
-#sidebar-toggle:checked ~ header{
-    left: -100%;
-    width: calc(100% - 0) !important;
+#sidebar-toggle:checked ~ .main-content header{
+    left: 0;
+    width: 100%;
+    right: 0;
 }
 
 #sidebar-toggle:checked ~ .main-content{
@@ -317,6 +318,7 @@ main{
 .jobs table {
     border-collapse: collapse;
     margin-top: 1rem;
+    overflow-x: auto;
 }
 
 span.indicator{
@@ -352,5 +354,28 @@ table button{
     border: 1px solid #8da2fb;
     padding: .5rem;
     border-radius: 3px;
+}
+@media only screen and (max-width:1124){
+    .sidebar{
+        left: -100%;
+    }
+
+    .main-content{
+        margin-left: -100%;
+        z-index: 30%;
+    }
+
+    header{
+        left: 0;
+        width: 100%;
+    }
+
+    #sidebar-toggle:checked ~ .sidebar{
+        left: 0;
+    }
+
+    .cards{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 
