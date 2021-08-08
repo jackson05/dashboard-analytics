@@ -57,16 +57,18 @@ body{
 .brand-flex{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .brand-icons span {
     font-size: 1.5rem;
     margin-left: .5rem;
-}
+} 
 
-.sidebar-user {
+ .sidebar-user {
    margin:  1rem 0rem 1rem 0rem;
-}
+   text-align: center;
+} 
 
 .sidebar-user img{
     width: 110px;
@@ -115,8 +117,8 @@ body{
     
 }
 
-.sidebar-menu li a span{
-    font-size: 1.5rem;
+.sidebar-menu li a svg {
+    font-size: 1rem;
     display: inline-block;
     margin-right: .8rem;
 }
