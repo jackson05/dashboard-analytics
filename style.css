@@ -117,6 +117,7 @@ body{
     
 }
 
+
 .sidebar-menu li a svg {
     font-size: 1rem;
     display: inline-block;
@@ -240,20 +241,20 @@ main{
     color: #333;
 }
 
-.card-chart span{
+.card-chart svg{
     font-size: 5rem;
  }
 
-.card-chart.succes span{
+.card-chart.succes svg{
     color: seagreen;
 }
 
-.card-chart.danger span{
+.card-chart.danger svg{
     color: tomato;
 }
 
-.card-chart.yellow span{
-    color: orangered;
+.card-chart.yellow svg{
+    color: rgb(255, 187, 0);
 
 }
 
